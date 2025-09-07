@@ -1,0 +1,89 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.topic {
+    letter-spacing: 5px;
+    font-size: 15px;
+    color: hsl(228, 12%, 48%);
+    
+}
+
+.write-up {
+    color: hsl(228, 12%, 48%);
+}
+
+.container {
+    width: 600px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    display: flex;
+    gap: 10px;
+    /* flex-wrap: wrap; */
+    margin-top: 320px;
+} 
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    padding: 30px;
+    width: 70%; 
+}
+
+.image {
+    width: 320px;
+    padding: 2px 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    /* padding-left: 2px; */
+
+}
+
+.owner {
+    font-weight: 600;
+}
+
+.price {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+h2 {
+    font-size: 40px;
+    color:  hsl(158, 36%, 37%);
+    /* font-family: inherit; */
+
+}
+
+del {
+    color: hsl(228, 12%, 48%);
+}
+
+.butten {
+     justify-content: center;
+     align-content: center;
+     background-color: hsl(158, 36%, 37%);
+     font-size: 20px;
+     border-radius: 10px;
+     text-align: center;
+     color: white;
+     padding-top: 10px;
+     padding-bottom: 10px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
